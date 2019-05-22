@@ -1,0 +1,30 @@
+body {
+    background-color: #000000;
+}
+
+span i {
+    font-size: 45px;
+    color: #202020;
+}
+
+.icon {
+    color: #fdf733;
+    font-size: 45px;
+}
+
+span:hover~span i {
+    color: #ffffff;
+}
+
+span:hover i {
+    color: #eb4762;
+}
+
+span:hover+span i {
+    color: #f08eb1;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+}
